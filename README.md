@@ -44,10 +44,10 @@ Al final de este bloque deberemos entregar una página web personal con 4 págin
   ![Página principal](PAGINA_PRINCIPAL.jpg)
   
 - [ ] Formulario de contacto
-  - Fecha de entrega
+  - Fecha de entrega **(por concretar)**
 - [ ] Galería de imágenes
-  - Fecha de entrega
+  - Fecha de entrega **(por concretar)**
 - [ ] Página de listados
-  - Fecha de entrega
+  - Fecha de entrega **(por concretar)**
   
-**ENTREGA FINAL 31/1/2025**
+**ENTREGA FINAL (fecha por concretar)**
