@@ -65,6 +65,10 @@ Al final de este bloque deberemos entregar una página web personal con 4 págin
   ![Página principal](PAGINA_GALERIA.jpg)
 	 
 - [ ] Página de listados
+  - Está página mostrará un acordeón con 3 elementos.
+  - Dentro de cada elemento del acordeón habrá una tabla.
   - Fecha de entrega **(por concretar)**
+  
+    ![Página principal](PAGINA_LISTADOS.jpg)
   
 **ENTREGA FINAL (fecha por concretar)**
