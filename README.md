@@ -38,7 +38,7 @@ Asignatura Aplicaciones Web de 2º curso del ciclo de grado medio Sistemas Micro
 
 Al final de este bloque deberemos entregar una página web personal con 4 páginas:
 
-- [ ] Página principal
+- [X] Página principal
   - Esta página utilizará un grid para crear su estructura básica: una cabecera, un cuerpo y un pie.
   - En la cabecera incluiremos el título de la página, una imagen y un menú de navegación. La imagen se debe adaptar al ancho de nuestra pantalla.
   - El cuerpo, a su vez, contendrá una sección lateral y una sección principal. La sección principal contendrá varias columnas que se ajustarán en función del tamaño de la pantalla.	  
@@ -47,7 +47,7 @@ Al final de este bloque deberemos entregar una página web personal con 4 págin
   
   ![Página principal](PAGINA_PRINCIPAL.jpg)
   
-- [ ] Formulario de contacto
+- [X] Formulario de contacto
   - Esta página mostrará un formulario que nos permitirá enviar un correo electrónico. Este formlularo tendrá campos para el nombre, el correo electrónico, el asunto y el cuerpo del mensaje.
   - Este formulario se mostrará en dos columnas para un tamaño de pantalla grande y en una para un tamaño de pantalla pequeño.
   - Este formulario incluirá un botón. Al clicar sobre él, se mostrará una alerta indicando que el mensaje no se ha podido enviar.
