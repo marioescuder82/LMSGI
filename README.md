@@ -8,20 +8,20 @@ Asignatura Aplicaciones Web de 2º curso del ciclo de grado medio Sistemas Micro
 - [X] Práctica 1: Introducción a Bootstrap. Clase Container
 - [X] Práctica 2: Grids
 - [X] Práctica 3: Introducción al formateo de textos
-- [ ] Práctica 4: Listas
+- [X] Práctica 4: Listas
 - [X] Práctica 5: Imágenes
-- [ ] Práctica 6: Tablas
+- [X] Práctica 6: Tablas
 - [X] Práctica 7: Formularios
 - [ ] Práctica 8: Listas desplegables
 - [ ] Práctica 9: Input group
 - [X] Práctica 10: Alertas
-- [ ] Práctica 11: Botones
+- [X] Práctica 11: Botones
 - [ ] Práctica 12: Cards
 - [ ] Práctica 13: Listado de grupos
 - [ ] Práctica 14: Carrusel
 - [X] Práctica 15: Collapse
 - [ ] Práctica 16: Menús
-- [ ] Práctica 17: Acordeones
+- [X] Práctica 17: Acordeones
 
 ### Apuntes
 
@@ -60,15 +60,25 @@ Al final de este bloque deberemos entregar una página web personal con 4 págin
   - Esta página mostrará una serie de imágenes (al menos 6) mediante un Carousel.
   - El Carousel incluirá botones para navegar por las imágenes y un texto descriptivo de cada una que aparecera encima.
   - Arriba del Carousel aparecerá una vista en miniatura de todas las imágenes, en columnas de 3 para pantallas grandes y en columnas de 1 para dispositivos pequeños.
-  - Fecha de entrega **(por concretar)**
+  - Fecha de entrega **23/2/2025**
   
   ![Página principal](PAGINA_GALERIA.jpg)
 	 
-- [ ] Página de listados
+- [X] Página de listados
   - Está página mostrará un acordeón con 3 elementos.
   - Dentro de cada elemento del acordeón habrá una tabla.
-  - Fecha de entrega **(por concretar)**
+  - Fecha de entrega **16/2/2025**
   
     ![Página principal](PAGINA_LISTADOS.jpg)
   
-**ENTREGA FINAL (fecha por concretar)**
+**ENTREGA FINAL 23/2/2025**
+
+## JSON y XML
+
+### Prácticas
+
+- [ ] Práctica 1: XML **18/2/2025**
+- [ ] Práctica 2: JSON **25/2/2025**
+
+**EXAMEN BOOTSTRAP + XML + JSON 4/3/2025**
+
