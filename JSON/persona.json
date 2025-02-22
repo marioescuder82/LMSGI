@@ -1,0 +1,15 @@
+{
+    "nombre": "Mario",
+    "apellido": "Escuder",
+    "edad": 35,
+    "estudiante": true,
+    "direccion": {
+        "calle": "Mayor",
+        "numero": 5,
+        "ciudad": "Teruel"
+    },
+    "telefonos": [
+        "555555555",
+        "666666666"
+    ]
+}

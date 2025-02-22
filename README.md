@@ -77,8 +77,12 @@ Al final de este bloque deberemos entregar una página web personal con 4 págin
 
 ### Prácticas
 
-- [ ] Práctica 1: XML **18/2/2025**
-- [ ] Práctica 2: JSON **25/2/2025**
+- [ ] Práctica 1: XML
+- [ ] Práctica 2: JSON
+
+### Apuntes
+
+- [JSON](JSON.md)
 
 **EXAMEN BOOTSTRAP + XML + JSON 4/3/2025**
 
