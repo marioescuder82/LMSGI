@@ -16,9 +16,9 @@ Asignatura Aplicaciones Web de 2º curso del ciclo de grado medio Sistemas Micro
 - [ ] Práctica 9: Input group
 - [X] Práctica 10: Alertas
 - [X] Práctica 11: Botones
-- [ ] Práctica 12: Cards
+- [X] Práctica 12: Cards
 - [ ] Práctica 13: Listado de grupos
-- [ ] Práctica 14: Carrusel
+- [X] Práctica 14: Carrusel
 - [X] Práctica 15: Collapse
 - [ ] Práctica 16: Menús
 - [X] Práctica 17: Acordeones
