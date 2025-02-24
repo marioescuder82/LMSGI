@@ -83,6 +83,7 @@ Al final de este bloque deberemos entregar una página web personal con 4 págin
 ### Apuntes
 
 - [JSON](JSON.md)
+- [XML](XML.md)
 
 **EXAMEN BOOTSTRAP + XML + JSON 4/3/2025**
 
