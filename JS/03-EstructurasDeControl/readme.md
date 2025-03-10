@@ -1,11 +1,11 @@
-## **Capítulo 3: Estructuras de Control (3h)**
+# **Capítulo 3: Estructuras de Control**
 
-### **Objetivo:**
+## **Objetivo:**
 Dominar las estructuras condicionales y de bucle para controlar el flujo del programa. Aprender a tomar decisiones y ejecutar acciones repetitivas.
 
 ---
 
-### **3.1 Introducción a las estructuras de control**
+## **3.1 Introducción a las estructuras de control**
 - Las estructuras de control permiten:
   1. Tomar decisiones (condicionales).
   2. Repetir acciones (bucles).
@@ -20,9 +20,9 @@ Dominar las estructuras condicionales y de bucle para controlar el flujo del pro
 
 ---
 
-### **3.2 Condicionales: `if`, `else if`, `else`**
+## **3.2 Condicionales: `if`, `else if`, `else`**
 
-#### **Explicación:**
+### **Explicación:**
 - Usamos condicionales para ejecutar código solo si se cumple una condición.
 - **Sintaxis básica:**
   ```javascript
@@ -35,7 +35,7 @@ Dominar las estructuras condicionales y de bucle para controlar el flujo del pro
   }
   ```
 
-#### **Ejemplo 1:**
+### **Ejemplo 1:**
 Verificar si una persona es mayor de edad:
 ```javascript
 let edad = 18;
@@ -46,7 +46,7 @@ if (edad >= 18) {
 }
 ```
 
-#### **Ejemplo 2:**
+### **Ejemplo 2:**
 Clasificar una nota:
 ```javascript
 let nota = 7;
@@ -63,16 +63,16 @@ if (nota >= 9) {
 
 ---
 
-### **3.3 Operador Ternario**
+## **3.3 Operador Ternario**
 
-#### **Explicación:**
+### **Explicación:**
 - Una forma compacta de escribir condicionales simples.
 - **Sintaxis:**
   ```javascript
   condición ? expresión_si_verdadero : expresión_si_falso;
   ```
 
-#### **Ejemplo:**
+### **Ejemplo:**
 ```javascript
 let edad = 20;
 let mensaje = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
@@ -81,9 +81,9 @@ console.log(mensaje);
 
 ---
 
-### **3.4 Bucles**
+## **3.4 Bucles**
 
-#### **3.4.1 `for`**
+### **3.4.1 `for`**
 
 - Repetimos un bloque de código un número fijo de veces.
 - **Sintaxis básica:**
@@ -93,7 +93,7 @@ console.log(mensaje);
   }
   ```
 
-#### **Ejemplo 1:**
+### **Ejemplo 1:**
 Imprimir los números del 1 al 5:
 ```javascript
 for (let i = 1; i <= 5; i++) {
@@ -113,7 +113,7 @@ console.log("La suma es:", suma);
 
 ---
 
-#### **3.4.2 `while`**
+### **3.4.2 `while`**
 
 - Repite un bloque de código mientras la condición sea verdadera.
 - **Sintaxis básica:**
@@ -123,7 +123,7 @@ console.log("La suma es:", suma);
   }
   ```
 
-#### **Ejemplo:**
+### **Ejemplo:**
 Contar hacia atrás desde 5 hasta 1:
 ```javascript
 let contador = 5;
@@ -135,7 +135,7 @@ while (contador > 0) {
 
 ---
 
-#### **3.4.3 `do...while`**
+### **3.4.3 `do...while`**
 
 - Similar a `while`, pero asegura que el bloque de código se ejecute al menos una vez.
 - **Sintaxis básica:**
@@ -145,7 +145,7 @@ while (contador > 0) {
   } while (condición);
   ```
 
-#### **Ejemplo:**
+### **Ejemplo:**
 Pedir un número hasta que el usuario introduzca un valor mayor que 10:
 ```javascript
 let numero;
@@ -157,9 +157,9 @@ console.log("Número válido:", numero);
 
 ---
 
-### **3.5 Uso combinado de condicionales y bucles**
+## **3.5 Uso combinado de condicionales y bucles**
 
-#### **Ejemplo 1: Tablas de multiplicar**
+### **Ejemplo 1: Tablas de multiplicar**
 Generar la tabla de multiplicar del 5:
 ```javascript
 for (let i = 1; i <= 10; i++) {
@@ -167,7 +167,7 @@ for (let i = 1; i <= 10; i++) {
 }
 ```
 
-#### **Ejemplo 2: Números pares del 1 al 20**
+### **Ejemplo 2: Números pares del 1 al 20**
 ```javascript
 for (let i = 1; i <= 20; i++) {
   if (i % 2 === 0) {
@@ -178,7 +178,7 @@ for (let i = 1; i <= 20; i++) {
 
 ---
 
-### **3.6 Errores comunes al usar estructuras de control**
+## **3.6 Errores comunes al usar estructuras de control**
 
 1. **Condiciones incorrectas:**
    - Escribir `=` en lugar de `==` o `===`.
@@ -207,9 +207,9 @@ for (let i = 1; i <= 20; i++) {
 
 ---
 
-### [**Ejercicios del Capítulo 3**](./ejercicios.md)
+## [**Ejercicios del Capítulo 3**](./ejercicios.md)
 
-### [**Practica Javascript: 50 Ejercicios**](./practica.md)
+## [**Practica Javascript: 50 Ejercicios**](./practica.md)
 
 
 
