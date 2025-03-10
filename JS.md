@@ -5,7 +5,6 @@
 - Introducción a JavaScript: dónde y cómo se usa.
 - Configuración del entorno: uso de la consola del navegador y VSCode.
 - Primer script: mostrar "Hola, mundo" en la consola.
-- [Ejercicios de entrega obligatoria](JS/01-Introduccion/ejercicios.md)
 
 ## [Capítulo 2: Variables, tipos de datos y operadores básicos](JS/02-Variables/readme.md)
 
@@ -13,6 +12,7 @@
 - Tipos de datos básicos (números, textos, booleanos).
 - Operadores básicos (aritméticos, comparación).
 - Ejercicios básicos de declaración y uso de variables.
+- [Ejercicios de entrega obligatoria](JS/01-Variables/ejercicios.md)
 
 ## [Capítulo 3: Estructuras de control de flujo](JS/03-EstructurasDeControl/readme.md)
 
