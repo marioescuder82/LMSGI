@@ -5,7 +5,7 @@
 - Introducción a JavaScript: dónde y cómo se usa.
 - Configuración del entorno: uso de la consola del navegador y VSCode.
 - Primer script: mostrar "Hola, mundo" en la consola.
-- [Ejercicios para el alumno](JS/01-Introduccion/ejercicios.md)
+- [Ejercicios de entrega obligatoria](JS/01-Introduccion/ejercicios.md)
 
 ## [Capítulo 2: Variables, tipos de datos y operadores básicos](JS/02-Variables/readme.md)
 
@@ -18,4 +18,4 @@
 
 - Condicionales (`if`, `else`).
 - Bucles (`for`, `while`) para repetir tareas.
-- [Ejercicios prácticos con condiciones y bucles en contextos simples.](JS/03-EstructurasDeControl/ejercicios.md)
+- [Ejercicios de entrega obligatoria](JS/03-EstructurasDeControl/ejercicios.md)
