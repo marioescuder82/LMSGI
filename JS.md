@@ -7,13 +7,12 @@
 - Primer script: mostrar "Hola, mundo" en la consola.
 - [Ejercicios para el alumno](JS/01-Introduccion/ejercicios.md)
 
-## [Capítulo 2: Variables, tipos de datos y operadores básicos](./02-Variables/readme.md)
+## [Capítulo 2: Variables, tipos de datos y operadores básicos](JS/02-Variables/readme.md)
 
 - Variables en JavaScript (`let` y `const`).
 - Tipos de datos básicos (números, textos, booleanos).
 - Operadores básicos (aritméticos, comparación).
 - Ejercicios básicos de declaración y uso de variables.
-- [Ejercicios para el alumno](./02-Variables/ejercicios.md)
 
 ## [Capítulo 3: Estructuras de control de flujo](./03-EstructurasDeControl/readme.md)
 
