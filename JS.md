@@ -12,7 +12,7 @@
 - Tipos de datos básicos (números, textos, booleanos).
 - Operadores básicos (aritméticos, comparación).
 - Ejercicios básicos de declaración y uso de variables.
-- [Ejercicios de entrega obligatoria](JS/01-Variables/ejercicios.md)
+- [Ejercicios de entrega obligatoria](JS/02-Variables/ejercicios.md)
 
 ## [Capítulo 3: Estructuras de control de flujo](JS/03-EstructurasDeControl/readme.md)
 
