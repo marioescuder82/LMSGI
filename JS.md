@@ -14,7 +14,7 @@
 - Operadores básicos (aritméticos, comparación).
 - Ejercicios básicos de declaración y uso de variables.
 
-## [Capítulo 3: Estructuras de control de flujo](./03-EstructurasDeControl/readme.md)
+## [Capítulo 3: Estructuras de control de flujo](JS/03-EstructurasDeControl/readme.md)
 
 - Condicionales (`if`, `else`).
 - Bucles (`for`, `while`) para repetir tareas.
