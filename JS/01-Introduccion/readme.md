@@ -1,4 +1,4 @@
-# Capítulo 1: Introducción a la programación y a JavaScript
+# Capítulo 1: Introducción a JavaScript
 
 **Objetivo:** Familiarizar a los estudiantes con los conceptos básicos de programación y configurar su entorno de trabajo con JavaScript. También, realizar sus primeros ejercicios prácticos.
 
