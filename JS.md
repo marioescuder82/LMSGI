@@ -1,6 +1,6 @@
 # JavaScript
 
-## [Capítulo 1: Introducción a JavaScript](./01-Introduccion/readme.md)
+## [Capítulo 1: Introducción a JavaScript](JS/01-Introduccion/readme.md)
 
 - Introducción a JavaScript: dónde y cómo se usa.
 - Configuración del entorno: uso de la consola del navegador y VSCode.
