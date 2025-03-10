@@ -1,6 +1,6 @@
 # JavaScript
 
-### [**Capítulo 1: Introducción a la programación y a JavaScript **](./01-Introduccion/readme.md)
+## [Capítulo 1: Introducción a la programación y a JavaScript](./01-Introduccion/readme.md)
 
 - ¿Qué es programar? Conceptos básicos de programación.
 - Introducción a JavaScript: dónde y cómo se usa.
@@ -8,7 +8,7 @@
 - Primer script: mostrar "Hola, mundo" en la consola.
 - [Ejercicios para el alumno](./01-Introduccion/ejercicios.md)
 
-### [**Capítulo 2: Variables, tipos de datos y operadores básicos (2h)**](./02-Variables/readme.md)
+## [Capítulo 2: Variables, tipos de datos y operadores básicos](./02-Variables/readme.md)
 
 - Variables en JavaScript (`let` y `const`).
 - Tipos de datos básicos (números, textos, booleanos).
@@ -16,7 +16,7 @@
 - Ejercicios básicos de declaración y uso de variables.
 - [Ejercicios para el alumno](./02-Variables/ejercicios.md)
 
-### [**Capítulo 3: Estructuras de control de flujo (4h)**](./03-EstructurasDeControl/readme.md)
+## [Capítulo 3: Estructuras de control de flujo](./03-EstructurasDeControl/readme.md)
 
 - Condicionales (`if`, `else`).
 - Bucles (`for`, `while`) para repetir tareas.
