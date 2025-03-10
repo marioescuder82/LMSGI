@@ -1,8 +1,7 @@
 # JavaScript
 
-## [Capítulo 1: Introducción a la programación y a JavaScript](./01-Introduccion/readme.md)
+## [Capítulo 1: Introducción a JavaScript](./01-Introduccion/readme.md)
 
-- ¿Qué es programar? Conceptos básicos de programación.
 - Introducción a JavaScript: dónde y cómo se usa.
 - Configuración del entorno: uso de la consola del navegador y VSCode.
 - Primer script: mostrar "Hola, mundo" en la consola.
