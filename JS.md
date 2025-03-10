@@ -18,5 +18,4 @@
 
 - Condicionales (`if`, `else`).
 - Bucles (`for`, `while`) para repetir tareas.
-- [Ejercicios prácticos con condiciones y bucles en contextos simples.](./03-EstructurasDeControl/ejercicios.md)
-- [Ejercicios variados y avanzados de Javascript](./03-EstructurasDeControl/practica.md)
+- [Ejercicios prácticos con condiciones y bucles en contextos simples.](JS/03-EstructurasDeControl/ejercicios.md)
