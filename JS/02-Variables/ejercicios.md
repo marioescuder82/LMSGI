@@ -1,4 +1,4 @@
-# Ejercicios prácticos de JavaScript - Capítulo 1
+# Ejercicios prácticos de JavaScript - Capítulo 2
 
 1. **Conversión de temperatura**
    - Declara una variable `celsius` y asígnale un valor numérico que represente una temperatura en grados Celsius.

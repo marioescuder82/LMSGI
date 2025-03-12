@@ -19,3 +19,16 @@
 - Condicionales (`if`, `else`).
 - Bucles (`for`, `while`) para repetir tareas.
 - [Ejercicios de entrega obligatoria](JS/03-EstructurasDeControl/ejercicios.md)
+
+## [Capítulo 4: Funciones](JS/04-Funciones/readme.md)
+
+- Qué es una función y por qué son útiles.
+- Creación de funciones sencillas y uso de parámetros.
+- [Ejercicios de entrega obligatoria](JS/04-Funciones/ejercicios.md)
+
+## [Capítulo 5: Arrays y objetos básicos](JS/05-Arrays/readme.md)
+
+- Introducción a los arrays: lista de elementos.
+- Métodos básicos de arrays (`push`, `pop`).
+- Objetos como colección de propiedades y métodos.
+- [Ejercicios de entrega obligatoria](JS/05-Arrays/ejercicios.md)
