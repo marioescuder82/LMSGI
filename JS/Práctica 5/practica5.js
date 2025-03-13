@@ -11,3 +11,15 @@ for (let i = 2; i <= numero; i++) {
 }
 
 console.log(res)
+
+numero = 12321
+
+digito = 0
+divisor = 10
+while(numero > 0) {
+    numero = numero / divisor
+    divisor *= 10
+    digito++
+}
+
+console.log(digito)
