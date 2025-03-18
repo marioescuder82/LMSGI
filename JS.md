@@ -26,7 +26,7 @@
 - Creación de funciones sencillas y uso de parámetros.
 - [Ejercicios de entrega obligatoria](JS/04-Funciones/ejercicios.md)
 
-## [Capítulo 5: Arrays y objetos básicos](JS/05-Arrays/readme.md)
+## [Capítulo 5: Arrays y Maps](JS/05-Arrays/readme.md)
 
 - Introducción a los arrays: lista de elementos.
 - Métodos básicos de arrays (`push`, `pop`).

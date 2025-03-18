@@ -1,4 +1,4 @@
-# **Capítulo 5: Arrays**
+# **Capítulo 5: Arrays y maps**
 
 ## **Objetivo:**
 Entender qué son los arrays, cómo se usan y manipulan en JavaScript, y aplicar métodos comunes para realizar operaciones en ellos.
@@ -161,6 +161,82 @@ console.log(frutas[2]); // Salida: naranja
    console.log(frutas); // ["mango", "manzana", "naranja"]
    ```
 ---
+
+## **5.7 ¿Qué es un Map?**
+Un `Map` es una colección de pares clave-valor en la que las claves pueden ser de cualquier tipo, incluyendo objetos. A diferencia de los objetos, los `Maps` mantienen el orden de inserción de los elementos.
+
+## **5.8 Creación de un Map**
+Puedes crear un `Map` utilizando el constructor `Map()`:
+
+```javascript
+const miMapa = new Map();
+```
+
+## **5.9 Métodos Principales**
+
+### 1. `set(clave, valor)`
+Agrega un nuevo par clave-valor al `Map`.
+
+```javascript
+miMapa.set('nombre', 'Juan');
+```
+
+### 2. `get(clave)`
+Devuelve el valor asociado a la clave especificada.
+
+```javascript
+console.log(miMapa.get('nombre')); // Juan
+```
+
+### 3. `has(clave)`
+Devuelve `true` si la clave existe en el `Map`, de lo contrario `false`.
+
+```javascript
+console.log(miMapa.has('nombre')); // true
+```
+
+### 4. `delete(clave)`
+Elimina el par clave-valor asociado a la clave especificada.
+
+```javascript
+miMapa.delete('nombre');
+```
+
+### 5. `clear()`
+Elimina todos los pares clave-valor del `Map`.
+
+```javascript
+miMapa.clear();
+```
+
+### 6. `size`
+Propiedad que devuelve el número de pares clave-valor en el `Map`.
+
+```javascript
+console.log(miMapa.size); // 0
+```
+
+## **5.10 Iteración sobre un Map**
+Puedes iterar sobre un `Map` utilizando `forEach` o `for...of`.
+
+### Usando `forEach`
+```javascript
+miMapa.forEach((valor, clave) => {
+  console.log(`${clave}: ${valor}`);
+});
+```
+
+### Usando `for...of`
+```javascript
+for (const [clave, valor] of miMapa) {
+  console.log(`${clave}: ${valor}`);
+}
+```
+
+## **5.11 Ventajas de usar Maps**
+- Las claves pueden ser de cualquier tipo.
+- Mantiene el orden de inserción.
+- Ofrece un mejor rendimiento en operaciones de búsqueda y eliminación en comparación con objetos para grandes conjuntos de datos.
 
 
 
