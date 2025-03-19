@@ -32,3 +32,9 @@
 - Métodos básicos de arrays (`push`, `pop`).
 - Objetos como colección de propiedades y métodos.
 - [Ejercicios de entrega obligatoria](JS/05-Arrays/ejercicios.md)
+
+## [Capítulo 6: Manipulación del DOM](JS/06-DOM/readme.md)
+
+- Introducción al DOM (Document Object Model).
+- Selección y modificación de elementos (`getElementById`, `querySelector`).
+- [Ejercicios de entrega obligatoria](JS/06-DOM/ejercicios.md)
