@@ -1,4 +1,4 @@
-# **Capítulo 7: Manipulación del DOM **
+# **Capítulo 7: Manipulación del DOM**
 
 La manipulación del **DOM (Document Object Model)** permite a los desarrolladores interactuar con la estructura de una página web usando JavaScript. Este capítulo introduce conceptos esenciales como seleccionar elementos, modificar su contenido, y responder a eventos.
 
