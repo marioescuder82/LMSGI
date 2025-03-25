@@ -41,3 +41,8 @@ Desarrollar un juego de 3 en raya utilizando HTML, Bootstrap y JavaScript, ponie
 
 ## Evaluación
 Se evaluará la claridad del código, la funcionalidad del juego y la estética visual utilizando Bootstrap.
+
+# Ejercicio OPCIONAL: Desarrollo del juego de las parejas
+
+## Objetivo
+Desarrollar el juego de las parejas. En este juego, si el usuario destapa 2 fichas iguales, estan permanecen destapadas. En caso contrario, se les vuelve a dar la vuelta a las fichas permaneciendo ocultas.
