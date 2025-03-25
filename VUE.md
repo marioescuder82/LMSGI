@@ -6,7 +6,7 @@
 - Comparativa con otros frameworks (React, Angular).
 - Ventajas de usar VueJS.
 
-## [Capítulo 2: Configuración del entorno de desarrollo](VUE/02-Variables/readme.md)
+## [Capítulo 2: Configuración del entorno de desarrollo](VUE/02-Configuracion/readme.md)
 
 - Instalación de Node.js y npm.
 - Creación de un proyecto con Vue CLI.
