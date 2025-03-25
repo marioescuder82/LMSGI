@@ -1,6 +1,6 @@
-# JavaScript
+# VUE
 
-## [Capítulo 1: Introducción a JavaScript](VUE/01-Introduccion/readme.md)
+## [Capítulo 1: Introducción a VUE](VUE/01-Introduccion/readme.md)
 
 - Historia y evolución de VueJS.
 - Comparativa con otros frameworks (React, Angular).
