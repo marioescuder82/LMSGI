@@ -40,3 +40,9 @@
 - [Ejercicios de entrega obligatoria](JS/06-DOM/ejercicios.md)
 
 ## [Capítulo 7: Uso de JSON en JavaScript](JS/07-JSON/readme.md)
+
+- ¿Qué es JSON?
+- Acceso a una API Pública
+- Convertir una cadena en formato JSON a un objeto JavaScript
+- Convertir un objeto JavaScript a una cadena en formato JSON
+- [Ejercicios de entrega obligatoria](JS/06-JSON/ejercicios.md)
