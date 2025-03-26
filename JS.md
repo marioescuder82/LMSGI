@@ -38,3 +38,5 @@
 - Introducción al DOM (Document Object Model).
 - Selección y modificación de elementos (`getElementById`, `querySelector`).
 - [Ejercicios de entrega obligatoria](JS/06-DOM/ejercicios.md)
+
+## [Capítulo 7: Uso de JSON en JavaScript](JS/07-JSON/readme.md)
