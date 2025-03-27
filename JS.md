@@ -45,4 +45,4 @@
 - Acceso a una API Pública
 - Convertir una cadena en formato JSON a un objeto JavaScript
 - Convertir un objeto JavaScript a una cadena en formato JSON
-- [Ejercicios de entrega obligatoria](JS/06-JSON/ejercicios.md)
+- [Ejercicios de entrega obligatoria](JS/07-JSON/ejercicios.md)
