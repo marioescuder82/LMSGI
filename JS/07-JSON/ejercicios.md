@@ -10,4 +10,6 @@ Desarrollar un script en JavaScript que realice las siguientes tareas:
 
 2. **Crear Elementos Dinámicamente**: Para cada respuesta exitosa de la API, crear un elemento `div` que contenga una tarjeta (`card`) con la imagen del artista, su nombre y una breve biografía. Este `div` debe ser añadido a un contenedor existente en el documento HTML con el ID "lista".
 
-3. **Interactividad**: Implementar eventos para que al pasar el mouse sobre la tarjeta, se elimine la clase de sombra (`shadow`), y al salir del mouse, se vuelva a aplicar la clase de sombra para mejorar la experiencia visual del usuario.
+3. **Interactividad**: Implementar eventos para que al pasar el mouse sobre la tarjeta, se cambie el color de fondo de la misma y al salir, se vuelva al color de fondo original.
+
+4. **Responsive**: Las tarjetas se deben mostrar en cuatro columnas en pantallas grandes, 2 columnas en pantallas medianas y 1 en pantallas pequeñas.
