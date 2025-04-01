@@ -12,4 +12,4 @@ Desarrollar un script en JavaScript que realice las siguientes tareas:
 
 3. **Interactividad**: Implementar eventos para que al pasar el mouse sobre la tarjeta, se cambie el color de fondo de la misma y al salir, se vuelva al color de fondo original.
 
-4. **Responsive**: Las tarjetas se deben mostrar en cuatro columnas en pantallas grandes, 2 columnas en pantallas medianas y 1 en pantallas pequeñas.
+4. **Responsive**: Las tarjetas se deben mostrar en 4 columnas en pantallas grandes, 2 columnas en pantallas medianas y 1 en pantallas pequeñas.
