@@ -1,149 +1,130 @@
-# Fundamentos Vue 3 (composition api) | Vue Udemy
-[#](#sintaxis-de-plantilla) Sintaxis de plantilla
--------------------------------------------------
+# Fundamentos de Vue.js
 
-*   Vue utiliza una sintaxis de plantilla basada en HTML que le permite vincular declarativamente el DOM.
-*   Todas las plantillas de Vue son HTML sintácticamente válidas.
-*   Debajo del capó, Vue compila las plantillas en un código JavaScript altamente optimizado.
-*   Combinado con la reactividad, Vue es capaz de calcular la cantidad mínima de componentes a renderizar y aplicar la cantidad mínima de manipulaciones en el DOM.
+## 2. Interpolación de Texto
+La interpolación de texto en Vue.js se realiza utilizando las llaves dobles `{{ }}`. Permite mostrar datos dinámicamente en el HTML.
 
-[#](#interpolacion-de-texto) interpolación de texto
----------------------------------------------------
+```html
+<script setup>
+	const mensaje = "Hola, mundo"
+</script>
 
-*   Interpolación de texto (bigote o llaves dobles) es una forma de insertar valores en una plantilla.
+<template>
+	<div id="app">
+	  <p>{{ mensaje }}</p>
+	</div>
+</template>
+```
 
-[#](#enlaces-de-atributos) Enlaces de atributos
------------------------------------------------
+## 3. v-bind
+v-bind se utiliza para enlazar atributos de HTML a propiedades del modelo de datos. Se puede usar de forma abreviada con `:`
 
-*   Lo bigotes o llaves dobles no se pueden insertar dentro de los atributos HTML. En su lugar utilice una **`v-bind`** para enlazar el valor de un atributo.
+```html
+<script setup>
+	const imagenUrl = "imagen.jpg"
+</script>
 
-Debido a que **`v-bind`** se usa con tanta frecuencia, tiene una sintaxis abreviada dedicada:
+<template>
+	<img v-bind:src="imagenUrl">
+	<img :src="imagenUrl">
+</template>
+```
 
-[#](#uso-de-expresiones-de-javascript) Uso de expresiones de JavaScript
------------------------------------------------------------------------
+## 4. v-if, v-else y v-show
 
-*   Las expresiones de JavaScript se pueden usar en las plantillas de Vue.
+- **v-if**: Renderiza un bloque solo si la expresión es verdadera.
+- **v-else**: Se usa junto con `v-if` y se renderiza si `v-if` es falso.
+- **v-show**: Muestra u oculta el elemento basado en la expresión, pero no lo elimina del DOM.
 
-Cada enlace solo puede contener una sola expresión , lo siguiente NO funcionará:
+```html
+<div v-if="true">Este texto es visible.</div>
+<div v-else>Este texto no lo es.</div>
+<div v-show="true">Este texto se muestra.</div>
+```
 
-[#](#directivas) Directivas
----------------------------
+## 5. v-for
 
-*   Las directivas son atributos especiales con el prefijo **`v-`** .
-*   El trabajo de una directiva es aplicar actualizaciones de forma reactiva al DOM
+`v-for` se utiliza para renderizar listas. Se puede iterar sobre arrays o objetos.
 
-[#](#v-if) v-if
----------------
+```html
+<script setup>
+  const items = [
+    {id: 0, nombre: "lapiz"},
+    {id: 1, nombre: "raton"},
+    {id: 2, nombre: "pizarra"}
+  ]
+</script>
 
-*   [doc v-if (opens new window)](https://vuejs.org/guide/essentials/conditional.html)
-*   La directiva **`v-if`** se usa para mostrar o ocultar un elemento de la plantilla.
+<template>
+  <ul>
+    <li v-for="item in items" :key="item.id">{{ item.nombre }}</li>
+  </ul>
+</template>
+```
 
-[#](#v-else) v-else
--------------------
+## 6. Eventos
 
-*   Un elemento **`v-else`** debe seguir inmediatamente a un `v-if` o un `v-else-if` elemento; de lo contrario, no se reconocerá.
+Vue.js permite manejar eventos de manera sencilla usando la directiva `v-on`, que se puede abreviar como `@`.
 
-💔 Incorrecto:
+```html
+<script setup>
+  const saludar = () => alert("Hola")
+</script>
 
-[#](#v-show) v-show
--------------------
+<template>
+  <button @click="saludar">Saludar</button>
+</template>
+```
 
-*   La directiva **`v-show`** se usa para mostrar o ocultar un elemento de la plantilla.
-*   **`v-show`** solo cambia la propiedad display CSS del elemento.
-*   En términos generales, **v-if** tiene costos de alternancia más altos mientras que **v-show** tiene costos de renderización inicial más altos. Así que prefiera **v-show** si necesita alternar algo con mucha frecuencia, y prefiera **v-if** si es poco probable que la condición cambie en el tiempo de ejecución.
-
-[#](#v-for) v-for
------------------
-
-*   [doc v-for (opens new window)](https://vuejs.org/guide/essentials/list.html)
-*   La directiva **`v-for`** se usa para iterar sobre una lista de elementos.
-*   Para darle a Vue una pista para que pueda rastrear la identidad de cada nodo y, por lo tanto, reutilizar y reordenar los elementos existentes, debe proporcionar un atributo **key** único para cada elemento.
-
-Objetos:
-
-[#](#v-for-v-if) v-for v-if
----------------------------
-
-*   [doc v-for v-if (opens new window)](https://vuejs.org/guide/essentials/list.html#v-for-with-v-if)
-*   Cuando existen en el mismo nodo, **v-if** tiene una prioridad más alta que **v-for**.
-*   Eso significa que la condición **v-if** no tendrá acceso a las variables del alcance de **v-for**:
-
-Solución:
-
-[#](#eventos) Eventos
----------------------
-
-*   [doc eventos (opens new window)](https://vuejs.org/guide/essentials/event-handling.html)
-*   Podemos usar la directiva **v-on**, que normalmente acortamos al símbolo **@**, para escuchar eventos DOM y ejecutar JavaScript cuando se activan. El uso sería **`v-on:click="handler"`** o con el atajo, **`@click="handler"`**.
-
-Parámetros:
-
-*   [doc Modificadores (opens new window)](https://vuejs.org/guide/essentials/event-handling.html#event-modifiers)
-
-[#](#variables-reactivas) Variables reactivas
----------------------------------------------
-
-Siguiendo el ejemplo:
-
-[#](#ref) ref()
----------------
+## 7. Ref
 
 *   **ref** es una forma de trabajar con la reactividad de Vue 3.
-*   **ref**: Es una referencia reactiva, en nuestro ejemplo necesitamos un entero que sea **"rastreable"**, por ende utilizaremos ref, una forma de trabajar con la reactividad de Vue 3.
-*   **ref** toma el argumento y lo devuelve envuelto dentro de un objeto con una value propiedad, que luego puede usarse para acceder o mutar el valor de la variable reactiva.
+*   **ref** toma el argumento y lo devuelve envuelto dentro de un objeto con una propiedad value, que luego puede usarse para acceder o cambiar el valor de la variable reactiva.
 *   DOM: Cuando muta el estado reactivo, **el DOM se actualiza automaticamente.**
 *   En el template no es necesario acceder al **.value**, ya que el valor de la variable reactiva se puede acceder directamente.
 
-[#](#practica) Práctica
------------------------
+```html
+<script setup>
+  import { ref } from 'vue'
 
-*   Agrega un botón para disminuir el contador.
-*   Agrega un botón para resetear el contador.
-*   Pinta el contador en rojo cuando el valor sea menor a cero.
-*   Pinta el contador en verde cuando el valor sea mayor a cero.
+  const contador = ref(0)
 
-[#](#computed) Computed
------------------------
+  const incrementa = () => contador.value++
+</script>
 
-*   [doc computed (opens new window)](https://vuejs.org/guide/essentials/computed.html)
-*   Las propiedades computadas nos sirven para generar calculos en nuestros componentes, por ejemplo no se recomienda colocar demasiada lógica en nuestras plantillas HTML, ya que dificulta la interpretación de nuestros componentes.
-*   Por eso, para la lógica compleja que incluye datos reactivos, se recomienda utilizar una propiedad calculada
+<template>
+  <h2>{{ contador }}</h2>
+  <button @click="incrementa">Incrementa</button>
+</template>
+```
 
-TIP
+## 8. Computed Properties
 
-*   En lugar de una propiedad calculada, podemos definir la misma función como un método. Para el resultado final, los dos enfoques son exactamente iguales. Sin embargo, **la diferencia es que las propiedades calculadas se almacenan en caché en función de sus dependencias reactivas.**
-*   Una propiedad calculada solo se volverá a evaluar cuando algunas de sus dependencias reactivas hayan cambiado.
+ Las propiedades computadas sirven para generar cálculos en nuestros componentes
 
-Es necesario invocar al método
+```html
+<script setup>
+  import { ref, computed } from 'vue'
 
-[#](#bootstrap-5) Bootstrap 5:
-------------------------------
+  const contador = ref(0)
 
-*   CDN: revísalo en la página oficial: [getbootstrap (opens new window)](https://getbootstrap.com/)
-*   Puedes agregarlo en el index.HTML
+  const incrementa = () => contador.value++
 
-[#](#practica-2) Practica
--------------------------
+  const decrementa = () => contador.value--
+  
+  const estiloContador = computed(() => {
+	if (contador.value > 0)
+		return "text-success"
+	else if (contador.value == 0)
+		return "text-warning"
+	else
+		return "text-danger"
+	})
+</script>
 
-*   Agrega un array y su respectivo método y botón add para almacenar los números favoritos del usuario.
-*   Pinta ese array utilizando **v-for**.
-*   Utiliza **:disabled** en el botón add, para que solo se pueda presionar si el array no contiene números repetidos. (utiliza una propiedad computada).
+<template>
+  <h2 :class="estiloContador">{{ contador }}</h2>
+  <button @click="incrementa">Incrementa</button>
+  <button @click="decrementa">Incrementa</button>
+</template>
+```
 
-**:disabled** si es true el botón se bloquea:
-
-Solución:
-
-[#](#con-bootstrap-5) Con Bootstrap 5
--------------------------------------
-
-[#](#deploy) Deploy
--------------------
-
-*   [netlify.com (opens new window)](https://www.netlify.com/)
-
-[#](#archivos-del-curso-2) Archivos del curso
----------------------------------------------
-
-*   [github repo (opens new window)](https://github.com/bluuweb/mi-primer-proyecto-con-vu3)
-
-Last Updated: 12/8/2022, 15:53:28
