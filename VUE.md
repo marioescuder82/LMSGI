@@ -13,3 +13,11 @@
 - Estructura de un proyecto VueJS.
 
 ## [Capítulo 3: Fundamentos de VUE](VUE/03-Fundamentos/readme.md)
+
+- Interpolación de texto
+- v-bind
+- v-if, v-else y v-show
+- v-for
+- eventos
+- ref
+- computed
