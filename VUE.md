@@ -21,3 +21,5 @@
 - eventos
 - ref
 - computed
+
+## [Ejercicio de entrega obligatoria](VUE/03-Fundamentos/ejercicios.md)
