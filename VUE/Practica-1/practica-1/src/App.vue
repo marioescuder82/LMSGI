@@ -20,5 +20,5 @@
 <template>
   <h2 :class="estiloContador">{{ contador }}</h2>
   <button @click="incrementa">Incrementa</button>
-  <button @click="decrementa">Incrementa</button>
+  <button @click="decrementa">Decrementa</button>
 </template>
